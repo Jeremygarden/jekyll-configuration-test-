@@ -1,0 +1,33 @@
+# Site settings
+title: 草稿本
+email: ty4z2008@gmail.com
+description: > # 生活,技术,美食
+baseurl: "/jekyll_demo" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'tag'
+
+
+# Social account
+github:   Jeremygarden
+# codepen:  username
+# dribbble: username
+
+
+# Comment
+disqus_shortname: websec
+
+
+# Google Analytics
+# google_analytics: tracking_ID
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
